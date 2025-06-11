@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>XSS Test</title>
-    <script>alert('XSS Works!');</script>
+    <script>
+      alert(document.cookie);
+    </script>
   </head>
-  <body>
-    <h1>XSS Payload Executed</h1>
-  </body>
 </html>
-
- 
